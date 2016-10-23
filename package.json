@@ -4,6 +4,10 @@
   "description": "This project use Restify as NodeJS FW and connect to AWS Dynamo",
   "main": "index.js",
   "dependencies": {
+    "aws-sdk": "^2.6.11",
+    "bunyan": "^1.8.3",
+    "config": "^1.21.0",
+    "fs": "0.0.1-security",
     "restify": "^4.1.1",
     "restify-router": "^0.2.1"
   },

@@ -1,0 +1,5 @@
+apps:
+  - script: index.js
+    name: 'Rest API'
+    env:
+      NODE_ENV: development

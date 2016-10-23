@@ -1,0 +1,8 @@
+{
+    "dbConfig": {
+        "region": "us-west-2",
+        "endpoint": "http://localhost:8000",
+        "accessKeyId": "AKIAJ4ZXKILUJ3LIDHOA",
+        "secretAccessKey": "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"
+    }
+}
