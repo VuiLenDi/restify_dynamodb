@@ -1,0 +1,30 @@
+{
+  "name": "restify-dynamo",
+  "version": "1.0.0",
+  "description": "This project use Restify as NodeJS FW and connect to AWS Dynamo",
+  "main": "index.js",
+  "dependencies": {
+    "restify": "^4.1.1",
+    "restify-router": "^0.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "NODE_ENV=unit-test node_modules/mocha/bin/mocha --recursive -R xunit test/ > test-reports.xml; true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VuiLenDi/restify_dynamodb.git"
+  },
+  "keywords": [
+    "nodejs",
+    "restify",
+    "aws",
+    "dynamo"
+  ],
+  "author": "VuiLenDi <vuilendi@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VuiLenDi/restify_dynamodb/issues"
+  },
+  "homepage": "https://github.com/VuiLenDi/restify_dynamodb#readme"
+}
